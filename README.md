@@ -1,6 +1,12 @@
 <img width="384" height="59" alt="logo" src="https://github.com/user-attachments/assets/36c044ac-7c9d-48cf-9a64-357bb423e96e" />
 
+
+[![Acessar Excel2Bib](https://img.shields.io/badge/Acessar-Excel2Bib-00D88A?style=for-the-badge)](https://excel2bib.vercel.app/)
+
 O Excel2Bib nasceu da necessidade de converter planilhas com referências bibliográficas em arquivos BibTeX (.bib), facilitando a organização e a importação de estudos em ferramentas como o Parsif.al.
+
+<img width="1524" height="954" alt="image" src="https://github.com/user-attachments/assets/260c746d-afb2-4fe4-88ed-060f741ae8a8" />
+
 
 ***Funcionalidades***
 
