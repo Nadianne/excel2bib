@@ -18,3 +18,40 @@ O Excel2Bib nasceu da necessidade de converter planilhas com referências biblio
 
 Também disponibilizei um guia gratuito para auxiliar estudantes e pesquisadores na organização de Revisões Sistemáticas da Literatura.
 
+
+### Tecnologias utilizadas
+
+| Tecnologia | Finalidade |
+|---|---|
+| React + TypeScript | Interface e lógica da aplicação |
+| Vite | Desenvolvimento e compilação |
+| Tailwind CSS | Estilização |
+| ExcelJS | Leitura de XLSX |
+| SheetJS | Leitura de XLS |
+| Papa Parse | Leitura de CSV |
+| JSZip | Inspeção preliminar da estrutura XLSX |
+| Lucide React | Elementos visuais e ícones |
+
+
+### Principais diretórios e arquivos
+
+| Diretório ou arquivo | Finalidade |
+|---|---|
+| `public/` | Armazena recursos públicos, como imagens e materiais disponibilizados pelo site. |
+| `public/images/` | Contém o logo, o favicon e a imagem de apresentação do Guia Prático. |
+| `public/guias/` | Diretório destinado ao Guia Prático do Parsif.al em PDF. |
+| `src/assets/` | Armazena recursos visuais utilizados na aplicação. |
+| `src/components/` | Reúne componentes reutilizáveis, como o download do relatório de inconsistências. |
+| `src/utils/` | Contém as funções de leitura, validação, identificação de campos e conversão para BibTeX. |
+| `src/App.tsx` | Implementa a interface principal e controla as etapas de conversão. |
+| `src/App.css` | Arquivo de estilos da aplicação. |
+| `src/index.css` | Define os estilos globais. |
+| `src/main.tsx` | Ponto de entrada da aplicação React. |
+| `index.html` | Define a estrutura HTML inicial, o título, o favicon e os metadados. |
+| `package.json` | Declara as dependências e os scripts do projeto. |
+| `package-lock.json` | Registra as versões resolvidas das dependências. |
+| `vite.config.ts` | Configura o ambiente de desenvolvimento e compilação. |
+| `tsconfig*.json` | Contém as configurações do TypeScript. |
+| `eslint.config.js` | Configura a análise estática e as regras de qualidade do código. |
+| `.gitignore` | Define os arquivos e diretórios que não devem ser versionados. |
+| `README.md` | Apresenta a documentação geral do projeto. |
